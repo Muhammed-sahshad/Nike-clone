@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Helvetica Now Text Medium', Helvetica, Arial, sans-serif;
+}
+body{
+    padding-bottom: 50px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.top-bar{
+    width: 100%;
+    height: 36px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jordan-logo-svg{
+    height: 24px;
+    width: 24px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.info a{
+    font-size: 12px;
+    font-weight: medium;
+}
+.seperator{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.info{
+    margin-right: 60px;
+}
+.menu{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+}
+.nike-logo{
+    width: 330px;
+}
+.category{
+    display: flex;
+    gap: 25px;
+    margin-left: 25px;
+}
+.category a{
+   font-size:16px;
+   font-weight: medium;
+}
+.nike-logo-svg{
+    height: 75px;
+    width: 75px;
+    margin-left: 35px;
+}
+.search{
+    display: flex;
+    align-items: end;
+    gap: 18px;
+    margin-left: 60px;
+    flex: 1;
+}
+.search-box{
+    display: flex;
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    top: 5px ;
+    margin-left: 5px; 
+}
+.search-input{
+    width: 165px;
+    padding-left: 40px;
+    height: 36px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 18px;
+    font-size: 16px;
+}
+.offer-alert{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 75px;
+}
+.offer-text{
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+.offer-link{
+ text-decoration: underline;
+ font-size: 12px;
+ font-weight: bold;
+ margin: 0;
+}
+.poster{
+    display: flex;
+text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.poster-img{
+    width: 92%;
+}
+.poster-name{
+    margin-top: 35px;
+}
+.poster-tagline{
+    font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+.poster-qoute{
+    font-size: 15px;
+  font-style: monospace;
+}
+.shop-button{
+    margin-top: 20px;
+    padding: 9px 16px;
+    border: none;
+    border-radius: 19px;
+    background-color:black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.newest-snkrs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 92%;
+margin-left: 4%;
+}
+.shop-now{
+display: flex;
+align-items: center;
+gap: 12px;
+}
+.newest-head,.featured-head{
+    font-size: 24px;
+    font-weight: medium;
+}
+.shop-text{
+    font-size: 17px;
+    font-weight: medium;
+}
+.back-button{
+    width: 48px;
+    height: 48px;
+    padding: 5px 5px;
+    padding-left: 12px;
+    border: none;
+    border-radius: 50%;
+}
+
+.next-button{
+    width: 48px;
+    height: 48px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 50%;
+}
+.snkrs-cards{
+    display: flex;
+    column-gap: 10px;
+    margin-left: 4%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.snkr-grid img{
+    width: 380px;
+    height: 380px;
+}
+.snkr-model{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.snkr-type{
+    color: grey;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.snkr-price{
+    margin-top: 10px;
+}
+.cards-header{
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.card-title{
+    font-size: 24px;
+}
+.featured-cards,.classic-cards{
+    display: flex;
+    column-gap: 12px;
+    margin-left: 4%;
+    margin-top: 7px;
+    overflow: hidden;
+}
+.featured-grid{
+    width: 380px;
+    height: 610px;
+}
+.featured-grid img{
+    margin-top: 5px;
+    width: 380px;
+}
+.featured-text{
+margin-top: 35px;
+margin-bottom: -25px;
+}
+.featured-model{
+    margin-top: 35px;
+    font-size: 20px;
+}
+.underline{
+    width: 37px;
+}
+.under-line{
+margin-top: 2px;
+height: 2px;
+background-color: black;
+}
+.featured-text{
+    font-weight: bold;
+}
+.featured-shop-link{
+    margin-top: 25px;
+}
+.dont-miss{
+    font-size: 24px;
+    margin-left: 4%;
+    margin-top: 100px;
+}
+.jordan-sport{
+display: flex;
+text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.jordan-sport-img{
+    width: 92%;
+    margin-top: 25px;
+}
+.jordan-sport-footer{
+    width: 850px;
+}
+.jordan-sport-text-1{
+    font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.classic img{
+    width: 380px;
+    height: 420p;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.sports-cards{
+    display: flex;
+    overflow: hidden;
+    gap: 10px;
+    margin-left: 4%;
+    margin-top: 10px;
+}
+.sports-grid{
+    width: 450px;
+}
+.sports-grid img{
+    width: 450px;
+}
+.member-cards{
+    display: flex;
+    overflow: hidden;
+    gap: 10px;
+    margin-left: 4%;
+    margin-top: 10px;
+}
+.member-grid{
+    width: 380px;
+    height: 475px;
+}
+.member-grid img{
+ width: 380px;
+ height: 475px;
+}
+.member-img{
+    position: relative;
+}
+.member-info{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.member-text-1{
+    color: white;
+font-size: 16px;
+font-weight: bold;
+}
+.member-text-2{
+    color: white;
+    font-size: 22px;
+    margin-top: 13px;
+    width: 250px;
+}
+.shop-button-invert{
+    margin-top: 20px;
+    padding: 9px 16px;
+    border: none;
+    border-radius: 19px;
+    background-color:white;
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.all-items{
+    display: flex;
+    width: 92%;
+    margin-left: 4%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    gap: 50px;
+
+}
+.items-title{
+color: black;
+font-size: 22px;
+margin-bottom: 15px;
+}
+.icons{
+    width: 185px;
+}
+.item-model{
+    color: gray;
+    font-size: 17px; 
+    line-height: 40px;
+}
+.footer{
+    margin-top: 100px;
+    border-top: 1px solid rgb(228, 228, 228);
+    margin-left:  4%;
+    padding-top: 70px;  
+    display: flex;
+    gap: 20px;
+}
+.resources,.help,.company{
+    width: 275px;
+}
+.location{
+    width: 275px;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-title{
+    font-size: 14.5px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.footer-elements{
+    font-size: 14.5px;
+    color: gray;
+    line-height: 33px;
+}
+.location-icon{
+    color: gray;
+    margin-right: 3px;
+}
+.location-text{
+    color: gray;
+    font-size: 14px;
+}
+.copyright{
+    display: flex;
+    padding: 4%;
+    margin-top: 10px;
+    gap: 25px;
+}
+.copyright p{
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+}
+.guide{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.dropdown{
+    background: transparent;
+    border: none;
+    color: gray;
+}
+.downarrow{
+margin-top: -2px;
+margin-left: 2px;
+}
